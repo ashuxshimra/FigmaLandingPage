@@ -2,10 +2,73 @@
   box-sizing: border-box;
   line-height: normal;
 }
-body {
-  font-family: "Roboto", sans-serif !important;
-  margin: 0;
-  padding: 0;
+
+
+
+.frame21{
+  /* width:100vw; */
+  overflow-x: hidden;
+  position: relative;
+}
+.navbar{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  width: 90vw;
+  overflow: hidden;
+  display: flex;
+  flex: 1;
+  /* margin-left: 25px; */
+  align-items: center;
+  @media (max-width: 768px) {
+    display: none; /* Hide the NavMenu on smaller screens */
+  }
+}
+
+.btn{
+  padding-right: 8vw;
+}
+
+.body{
+
+}
+
+.appicon{
+  
+}
+.banner1{
+  width: 90vw;
+  
+  @media (max-width: 768px) {
+    display: none; /* Hide the NavMenu on smaller screens */
+  }
+}
+
+.assets{
+  
+}
+.f2img{
+  display: flex;
+  flex-direction: column;
+  margin-right: 3vw;
+}
+.our{
+  margin-left: 4vw;
+}
+.ourimg{
+display: flex;
+height: 115vh;
+}
+.rated{
+  width: 115vw;
+}
+.about{
+  width: 100vw;
+}
+.wormhole{
+  margin-left: 3vw;
 }
 .dhiwise-code,
 .dhiwise-navigation {

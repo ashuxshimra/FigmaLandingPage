@@ -5,6 +5,7 @@ import { Button, Img, Line, List, Text } from "components";
 const FrameTwentyOnePage = () => {
   return (
     <>
+    <div className="frame21">
       <div className="bg-white-A700 flex flex-col font-poppins items-center justify-start mx-auto w-full">
         <div className="flex flex-col items-center justify-start w-auto md:w-full">
           <div className="h-[1080px] md:h-[1367px] sm:h-[1395px] md:px-5 relative w-full">
@@ -13,12 +14,13 @@ const FrameTwentyOnePage = () => {
               src="images/img_nftmarketplac.png"
               alt="nftmarketplac"
             />
-            <div className="absolute bg-black-900_b2 flex flex-col h-full inset-[0] items-center justify-center m-auto pb-[60px] w-full">
-              <div className="flex flex-col md:gap-10 gap-[124px] items-center justify-start w-full">
-                <header className="flex sm:flex-col flex-row md:gap-10 items-center justify-between pb-5 pt-10 md:px-10 sm:px-5 px-[100px] w-full">
-                  <div className="flex flex-col font-inter items-center justify-start">
+            <div className="absolute bg-black-900_b2 flex flex-col h-full inset-[0] items-center justify-center m-auto pb-[3.285vw] w-full">
+              <div className="flex flex-col md:gap-10 gap-[7vw] items-center justify-start w-full">
+                <header className="flex sm:flex-col flex-row md:gap-10 items-center justify-between pb-5 pt-10 md:px-10 sm:px-5 px-[6.142vw] w-full">
+                <div className="navbar">
+                  <div style={{marginLeft:"9vw"}} className="flex flex-col font-inter items-center justify-start">
                     <Text
-                      className="sm:text-[34px] md:text-[40px] text-[44px] text-center text-yellow-800 uppercase"
+                      className="sm:text-[1.428vw] md:text-[2.857vw] text-[2.5vw] text-center text-yellow-800 uppercase"
                       size="txtInterBold44"
                     >
                       <span className="text-orange-400 font-roboto font-bold">
@@ -71,16 +73,21 @@ const FrameTwentyOnePage = () => {
                       </a>
                     </li>
                   </ul>
-                  <Button className="bg-gradient  capitalize cursor-pointer font-poppins font-semibold min-w-[203px] py-3.5 rounded-lg text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl">
+                  <div className="btn">
+                  <Button className="bg-gradient capitalize cursor-pointer font-poppins font-semibold min-w-[13.5vw] py-3.5 rounded-lg text-2xl md:text-[12px] text-center text-white-A700 sm:text-xl">
                     Get Started
                   </Button>
+                  </div>
+                  </div>
                 </header>
-                <div className="flex flex-col md:gap-10 gap-[132px] items-center justify-start w-[84%] md:w-full">
+                
+              <div className="body">
+                <div style={{width:"95vw"}} className="flex flex-col md:gap-10 gap-[132px] items-center justify-start w-[84%] md:w-full">
                   <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
                     <div className="flex md:flex-1 flex-col md:gap-10 gap-20 items-start justify-start mb-0.5 w-auto md:w-full">
                       <div className="flex flex-col gap-10 items-start justify-start w-auto md:w-full">
                         <Text
-                          className="leading-[78.00px] max-w-[905px] md:max-w-full md:text-5xl text-6xl text-white-A700"
+                          className="leading-[78.00px] max-w-[64.64vw] md:max-w-full md:text-5xl text-6xl text-white-A700"
                           size="txtInterBold60"
                         >
                           <span className="text-white-A700 font-poppins text-left font-semibold">
@@ -130,19 +137,22 @@ const FrameTwentyOnePage = () => {
                           decentralized future.
                         </Text>
                       </div>
+                      <div className="appicon">
                       <div className="flex sm:flex-col flex-row gap-4 items-start justify-start w-auto sm:w-full">
                         <Img
-                          className="h-[60px] rounded-md w-[205px]"
+                          className="h-[5vw] rounded-md w-[30vh]"
                           src="images/img_appledarkdownloadsvg.svg"
                           alt="appledarkdownlo"
                         />
                         <Img
-                          className="h-[60px] rounded-md w-[205px]"
-                          src="images/img_appledarkdownloadsvg.svg"
+                          className="h-[5vw] rounded-md w-[25vh] mr-200"
+                          src="images/playapp.png"
                           alt="androiddarkdown"
                         />
                       </div>
+                      </div>
                     </div>
+                  
                     <div className="md:h-[463px] h-[520px] relative w-[33%] md:w-full">
                       <div className="absolute bottom-[0] md:h-[461px] h-[469px] p-1 right-[0] rotate-[-14deg] w-[59%]">
                         <Img
@@ -170,46 +180,50 @@ const FrameTwentyOnePage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="bg-white-A700_33 border-4 border-solid flex sm:flex-col flex-row md:gap-10 items-start justify-between max-w-[1600px] orange_400_7f_orange_400_7f_01_border md:px-10 px-12 sm:px-5 py-8 rounded-[58px] w-full">
+                  <div className="banner1">
+                  <div className="bg-white-A700_33 border-4 border-solid flex sm:flex-col flex-row md:gap-10 items-start justify-between max-w-[114.29vw] orange_400_7f_orange_400_7f_01_border md:px-0.714vw px-0.857vw sm:px-0.357vw py-0.571vw rounded-[4rem] w-full p-8">
                     <Text
-                      className="sm:text-4xl md:text-[38px] text-[40px] text-shadow-ts text-white-A700 w-auto"
+                      className="sm:text-4xl md:text-[38px] text-[2.720vw] text-shadow-ts text-white-A700 w-auto"
                       size="txtPoppinsSemiBold40"
                     >
                       Games
                     </Text>
                     <Text
-                      className="sm:text-4xl md:text-[38px] text-[40px] text-shadow-ts text-white-A700 w-auto"
+                      className="sm:text-4xl md:text-[38px] text-[2.720vw] text-shadow-ts text-white-A700 w-auto"
                       size="txtPoppinsSemiBold40"
                     >
                       NFT’s
                     </Text>
                     <Text
-                      className="sm:text-4xl md:text-[38px] text-[40px] text-shadow-ts text-white-A700 w-auto"
+                      className="sm:text-4xl md:text-[38px] text-[2.720vw] text-shadow-ts text-white-A700 w-auto"
                       size="txtPoppinsSemiBold40"
                     >
                       Defi
                     </Text>
                     <Text
-                      className="sm:text-4xl md:text-[38px] text-[40px] text-shadow-ts text-white-A700 w-auto"
+                      className="sm:text-4xl md:text-[38px] text-[2.720vw] text-shadow-ts text-white-A700 w-auto"
                       size="txtPoppinsSemiBold40"
                     >
                       Polygon chains
                     </Text>
                     <Text
-                      className="sm:text-4xl md:text-[38px] text-[40px] text-shadow-ts text-white-A700 w-auto"
+                      className="sm:text-4xl md:text-[38px] text-[2.720vw] text-shadow-ts text-white-A700 w-auto"
                       size="txtPoppinsSemiBold40"
                     >
                       Crypto Exchange
                     </Text>
                   </div>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
           </div>
+          <div className="assets">
           <div className="flex flex-col items-start justify-start max-w-[1920px] p-40 md:px-10 sm:px-5 w-full">
             <div className="flex md:flex-col flex-row gap-[30px] items-center justify-between max-w-[1600px] mx-auto w-full">
               <div className="flex md:flex-1 flex-col md:gap-10 gap-20 items-start justify-center w-auto md:w-full">
-                <div className="flex flex-col items-start justify-center w-auto md:w-full">
+                <div style={{marginLeft:"3vw"}} className="flex flex-col items-start justify-center w-auto md:w-full">
                   <Text
                     className="leading-[48.00px] max-w-[820px] md:max-w-full sm:text-2xl md:text-[26px] text-[28px] text-gray-800"
                     size="txtPoppinsMedium28"
@@ -221,13 +235,13 @@ const FrameTwentyOnePage = () => {
                     consectetur adipiscing elit.
                   </Text>
                 </div>
-                <Button className="bg-gradient  capitalize cursor-pointer font-semibold min-w-[220px] py-3.5 rounded-lg text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl">
+                <Button className="bg-gradient  capitalize cursor-pointer font-semibold min-w-[220px] py-3.5 rounded-lg text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl ml-10">
                   Explore more
                 </Button>
               </div>
               <div className="flex flex-1 flex-col items-start justify-start max-w-[712px] w-full">
                 <div className="flex flex-col items-center justify-start w-full">
-                  <div className="md:gap-5 gap-8 grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
+                  <div style={{marginRight:"5vw"}} className="md:gap-5 gap-8 grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
                     <div className="bg-white-A700 border-2 border-gray-700 border-solid flex flex-1 flex-col gap-8 h-[300px] md:h-auto items-center justify-center p-6 sm:px-5 rounded-[20px] shadow-bs w-full">
                       <Img
                         className="h-16 md:h-auto object-cover w-16"
@@ -325,6 +339,8 @@ const FrameTwentyOnePage = () => {
               </div>
             </div>
           </div>
+          </div>
+          <div className="our">
           <div className="bg-blue_gray-900 flex flex-col items-start justify-start max-w-[1920px] md:px-10 px-40 sm:px-5 py-[100px] w-full">
             <div className="flex flex-col md:gap-10 gap-[100px] items-start justify-center max-w-[1600px] mx-auto w-full">
               <div className="flex flex-col gap-8 items-start justify-start w-auto md:w-full">
@@ -351,7 +367,14 @@ const FrameTwentyOnePage = () => {
                   Forem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Text>
               </div>
-              <div className="flex md:flex-col flex-row gap-[30px] items-center justify-center max-w-[1600px] w-full">
+              <div className="ourimg">
+                <div className="f2img">
+                  <img style={{marginBottom:"5vh"}} src="/images/Frame 854.png" alt=""/>
+                  <img src="/images/Frame 855.png" alt=""/>
+                </div>
+                <img  src="/images/Frame 856.png" alt=""/>
+              </div>
+              {/* <div className="flex md:flex-col flex-row gap-[30px] items-center justify-center max-w-[1600px] w-full">
                 <div className="flex md:flex-1 flex-col gap-[30px] items-start justify-start w-auto md:w-full">
                   <div className="bg-white-A700 border-8 border-solid border-white-A700 flex md:flex-col flex-row md:gap-10 items-center justify-between md:pr-10 sm:pr-5 pr-[60px] rounded-[18px] w-full">
                     <div className="bg-gray-400 flex md:flex-1 flex-col items-start justify-start w-[52%] md:w-full">
@@ -425,9 +448,11 @@ const FrameTwentyOnePage = () => {
                     </Text>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
+          </div>
+          <div className="rated">
           <div className="flex flex-col font-inter items-start justify-start pb-[120px] pt-[100px] md:px-10 px-40 sm:px-5 w-auto md:w-full">
             <div className="flex flex-col md:gap-10 gap-[60px] items-start justify-start max-w-[1600px] mx-auto w-full">
               <Text
@@ -759,6 +784,7 @@ const FrameTwentyOnePage = () => {
               </div>
             </div>
           </div>
+          </div>
           <div className="bg-gradient2  flex flex-col md:gap-10 gap-[60px] items-start justify-start max-w-[1920px] pb-[120px] pt-[100px] md:px-10 px-40 sm:px-5 w-full">
             <div className="flex flex-col gap-3 items-start justify-center w-auto md:w-full">
               <Text
@@ -1073,6 +1099,7 @@ const FrameTwentyOnePage = () => {
                       <div className="flex flex-col gap-[14.59px] items-start justify-start w-[349px]">
                         <div className="flex flex-col items-start justify-start w-[349px]">
                           <div className="flex flex-col items-start justify-start pb-[1.23px] md:pr-10 sm:pr-5 pr-[45.86px] w-[349px]">
+                            <div className="wormhole">
                             <Text
                               className="leading-[36.00px] sm:text-[16.96px] md:text-[18.96px] text-[20.96px] text-gray-900"
                               size="txtPoppinsBold2096"
@@ -1085,9 +1112,10 @@ const FrameTwentyOnePage = () => {
                                 Cosmos Appchain
                               </>
                             </Text>
+                            </div>
                           </div>
                         </div>
-                        <div className="flex flex-col items-start justify-start pb-[1.23px] md:pr-10 sm:pr-5 pr-[256.69px] w-[349px]">
+                        <div style={{marginLeft:"3vw"}} className="flex flex-col items-start justify-start pb-[1.23px] md:pr-10 sm:pr-5 pr-[256.69px] w-[349px]">
                           <Text
                             className="text-[16.03px] text-gray-900 w-auto"
                             size="txtPoppinsRegular1603"
@@ -1176,6 +1204,7 @@ const FrameTwentyOnePage = () => {
               </div>
             </div>
           </div>
+          <div className="about">
           <div className="bg-gradient  flex flex-col font-inter gap-[15px] items-center justify-end p-[15px] w-full">
             <div className="flex flex-col items-center justify-start max-w-[1609px] mt-10 mx-auto md:px-5 w-full">
               <div className="flex md:flex-col flex-row md:gap-10 gap-[317px] items-start justify-between w-auto md:w-full">
@@ -1194,6 +1223,7 @@ const FrameTwentyOnePage = () => {
                       Let’s create something together
                     </Text>
                   </div>
+                 
                   <Button className="bg-white-A700 capitalize cursor-pointer font-medium min-w-[264px] py-[18px] rounded-lg shadow-bs2 text-2xl md:text-[22px] text-black-900 text-center sm:text-xl tracking-[1.00px]">
                     Get Started
                   </Button>
@@ -1332,7 +1362,9 @@ const FrameTwentyOnePage = () => {
               </Text>
             </div>
           </div>
+          </div>
         </div>
+      </div>
       </div>
     </>
   );
